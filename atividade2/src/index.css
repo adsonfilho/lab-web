@@ -1,0 +1,112 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f5f9;
+  display:flex;
+  justify-content:center;
+  padding-top:50px;
+}
+
+/* container principal */
+.container{
+  width:600px;
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* titulo */
+h1{
+  text-align:center;
+  margin-bottom:25px;
+}
+
+/* formulário */
+form{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+input{
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+  flex:1;
+}
+
+button{
+  padding:10px 14px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  background:#1976d2;
+  color:white;
+  font-weight:bold;
+}
+
+button:hover{
+  background:#125aa0;
+}
+
+/* filtros */
+.filters{
+  display:flex;
+  gap:10px;
+  margin-bottom:15px;
+}
+
+/* lista */
+ul{
+  list-style:none;
+  margin-top:10px;
+}
+
+li{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px;
+  border-bottom:1px solid #eee;
+}
+
+li span{
+  flex:1;
+  margin-left:10px;
+}
+
+.completed{
+  text-decoration:line-through;
+  color:#888;
+}
+
+/* botão excluir */
+.delete{
+  background:#e53935;
+}
+
+.delete:hover{
+  background:#c62828;
+}
+
+/* limpar concluídos */
+.clear{
+  margin-top:15px;
+  background:#555;
+}
+
+.clear:hover{
+  background:#333;
+}
+
+select{
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
